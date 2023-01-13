@@ -1,0 +1,68 @@
+body .readme {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.8);
+  z-index: 2;
+}
+.readme .boxreadme {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border-radius: 15px;
+  background-color: white;
+}
+.readme .boxreadme .tombol {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+}
+.readme .boxreadme .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  height: 40px;
+  width: 100%;
+}
+.readme .boxreadme .header p {
+  font-size: 1.25rem;
+}
+.readme .boxreadme .information {
+  line-height: 1.25rem;
+  padding: 25px;
+}
+.readme .boxreadme .information p {
+  font-size: 1.05rem;
+  text-align: left;
+}
+.readme span {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  background: linear-gradient(45deg, #001d67, #00c1eb);
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px black;
+  cursor: pointer;
+  z-index: 0;
+  color: white;
+}
+.readme span a {
+}
+.readme span:hover {
+  text-transform: uppercase;
+  font-weight: bold;
+  transform: scale(1.05);
+}

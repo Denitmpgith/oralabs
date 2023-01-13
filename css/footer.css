@@ -36,3 +36,6 @@ footer .socialmedia ul {
   flex-direction: row;
   margin: 7px 0px;
 }
+footer .copywrite {
+  line-height: 1.5rem;
+}

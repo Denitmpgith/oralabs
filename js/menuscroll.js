@@ -12,7 +12,7 @@ $(window).scroll(function () {
     $(".menu ul li a").addClass("color3").removeClass("color1").removeClass("color2");
   } else if (wScroll >= 2160) {
     $("nav").removeClass("nav1").removeClass("nav2").addClass("nav3");
-    $(".menu ul li a").addClass("color1").removeClass("color2").removeClass("color3");
+    $(".menu ul li a").addClass("color3").removeClass("color2").removeClass("color1");
   }
   // console.log(wScroll);
 });
