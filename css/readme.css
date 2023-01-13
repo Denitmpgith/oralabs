@@ -59,8 +59,7 @@ body .readme {
   z-index: 0;
   color: white;
 }
-.readme span a {
-}
+
 .readme span:hover {
   text-transform: uppercase;
   font-weight: bold;
