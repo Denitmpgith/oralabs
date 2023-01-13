@@ -1,0 +1,34 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr repeat(15, 128x) 1fr;
+}
+section#PRODUCTS {
+  background: linear-gradient(45deg, #001d67, #00c1eb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#PRIVATE {
+  background: linear-gradient(45deg, #00c1eb, #001d67);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#CONTRACT {
+  background: linear-gradient(45deg, #001d67, #00c1eb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#PROMOTIONAL {
+  background: linear-gradient(45deg, #00c1eb, #001d67);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Bree Serif";
+  src: url("/font/BreeSerif-Regular.ttf");
+}
+@font-face {
+  font-family: "DM Serif Display";
+  src: url("/font/DMSerifDisplay-Regular.ttf");
+}
+p {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
